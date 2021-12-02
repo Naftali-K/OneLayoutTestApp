@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/delete_btn"
+        android:title="Delete"
+        android:icon="@drawable/ic_delete"/>
+
+    <item android:id="@+id/share_btn"
+        android:title="Share"
+        android:icon="@drawable/ic_share"/>
+
+    <item android:id="@+id/notification_btn"
+        android:title="Notification"
+        android:icon="@drawable/ic_notifications"
+        android:actionLayout="@layout/custom_notification_layout"
+        app:showAsAction="always"/>
+
+<!--    <item android:id="@+id/close_btn"-->
+<!--        android:title="Colse"-->
+<!--        android:icon="@drawable/ic_close"/>-->
+
+</menu>

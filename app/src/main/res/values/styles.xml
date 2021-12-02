@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="spinner">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:popupBackground">#10181F</item>
+        <!--        <item name="android:background">@drawable/be_channel_qr_bar_code_input_style</item>-->
+    </style>
+
+    <style name="spinner_countries_list">
+        <item name="background">@drawable/spinner_countries_list</item>
+    </style>
+
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>
