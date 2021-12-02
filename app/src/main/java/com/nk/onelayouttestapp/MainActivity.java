@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity implements AccountSettingsDi
         @Override
         public boolean onCreateActionMode(ActionMode mode, Menu menu) {
             mode.getMenuInflater().inflate(R.menu.action_menu, menu);
-//            mode.setTitle("Choose you option");
+            mode.setTitle("Choose you option");
 
             //not working
 //            final MenuItem menuItem = menu.findItem(R.id.notification_btn);
@@ -230,10 +230,10 @@ public class MainActivity extends AppCompatActivity implements AccountSettingsDi
                     Toast.makeText(getBaseContext(), "Share item", Toast.LENGTH_SHORT).show();
                     mode.finish();
                     return true;
-//                case R.id.close_btn:
-//                    Toast.makeText(getBaseContext(), "Close menu", Toast.LENGTH_SHORT).show();
-//                    mode.finish();
-//                    return true;
+                case R.id.close_btn:
+                    Toast.makeText(getBaseContext(), "Close menu", Toast.LENGTH_SHORT).show();
+                    mode.finish();
+                    return true;
                 default:
                     return false;
             }
