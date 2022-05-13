@@ -3,6 +3,7 @@ package com.nk.onelayouttestapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.ActionMode;
+import androidx.appcompat.widget.SwitchCompat;
 import androidx.core.view.MenuItemCompat;
 
 import android.graphics.Color;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements AccountSettingsDi
     Spinner publicSpinner;
     EditText passEt;
     TextView userNameFromDialogEditText, notificationBadge;
+    SwitchCompat infoSettingSwitch;
 
     private TextInputLayout mailInputText, passwordInputText;
     Button userSettingsBtn, regLoginBtn, openBottomDialogSheetBtn, contextMenuBtn, actionMenuBtn;
@@ -167,6 +169,10 @@ public class MainActivity extends AppCompatActivity implements AccountSettingsDi
 
         // End action menu
         //------------------------------------------------------------------------------------------
+
+
+        infoSettingSwitch = findViewById(R.id.info_setting_switch);
+        infoSettingSwitch.setTrackDrawable(new SwitchTrackTextDrawable(this, R.string.info, R.string.settings));
     }
 
     @Override
