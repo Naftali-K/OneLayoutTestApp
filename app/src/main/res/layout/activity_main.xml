@@ -167,6 +167,14 @@
             android:text="Open Dialog Fragment"/>
 
         <Button
+            android:id="@+id/custom_dialog_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textAllCaps="false"
+            android:text="Custom Dialog"/>
+
+        <Button
             android:id="@+id/open_bottom_dialog_sheet_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -17,11 +17,16 @@
         <entry key="..\:/Programming/Android/beSTREAM/Templets/OneLayoutTestApp/app/src/main/res/layout/dialog_account_settings.xml" value="0.20871327254305977" />
         <entry key="..\:/Programming/Android/beSTREAM/Templets/OneLayoutTestApp/app/src/main/res/menu/action_menu.xml" value="0.42916666666666664" />
         <entry key="..\:/Programming/Android/beSTREAM/Templets/OneLayoutTestApp/app/src/main/res/menu/context_menu.xml" value="0.42916666666666664" />
+        <entry key="app/src/main/res/drawable/btn_close.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/dialog_fragment_style.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_close.xml" value="0.131" />
         <entry key="app/src/main/res/drawable/pink_out_line.xml" value="0.131" />
         <entry key="app/src/main/res/drawable/switch_thumb_blue_blue.xml" value="0.131" />
         <entry key="app/src/main/res/drawable/switch_track_blue_blue.xml" value="0.131" />
         <entry key="app/src/main/res/drawable/toggle_widget_background.xml" value="0.131" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21721311475409835" />
+        <entry key="app/src/main/res/layout/dialog_account_settings.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dialog_custom.xml" value="0.25" />
       </map>
     </option>
   </component>

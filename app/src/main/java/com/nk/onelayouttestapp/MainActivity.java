@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.ActionMode;
 import androidx.appcompat.widget.SwitchCompat;
-import androidx.core.view.MenuItemCompat;
 
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -24,6 +23,8 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.textfield.TextInputLayout;
+import com.nk.onelayouttestapp.dialogs.AccountSettingsDialog;
+import com.nk.onelayouttestapp.dialogs.CustomDialog;
 
 public class MainActivity extends AppCompatActivity implements AccountSettingsDialog.ExampleDialogListener {
 
@@ -33,7 +34,8 @@ public class MainActivity extends AppCompatActivity implements AccountSettingsDi
     SwitchCompat infoSettingSwitch;
 
     private TextInputLayout mailInputText, passwordInputText;
-    Button userSettingsBtn, regLoginBtn, openBottomDialogSheetBtn, contextMenuBtn, actionMenuBtn;
+    Button userSettingsBtn, regLoginBtn, openBottomDialogSheetBtn, contextMenuBtn, actionMenuBtn,
+            customDialogBtn;
 
     BottomSheetDialog bottomSheetDialog;
 
@@ -113,6 +115,17 @@ public class MainActivity extends AppCompatActivity implements AccountSettingsDi
             public void onClick(View v) {
                 AccountSettingsDialog accountSettingsDialog = new AccountSettingsDialog();
                 accountSettingsDialog.show(getSupportFragmentManager(), "");
+            }
+        });
+
+
+        // Custom Dialog
+        customDialogBtn = findViewById(R.id.custom_dialog_btn);
+        customDialogBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                CustomDialog customDialog = new CustomDialog();
+                customDialog.show(getSupportFragmentManager(), "");
             }
         });
 

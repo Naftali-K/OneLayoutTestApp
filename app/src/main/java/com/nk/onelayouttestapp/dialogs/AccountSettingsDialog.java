@@ -1,4 +1,4 @@
-package com.nk.onelayouttestapp;
+package com.nk.onelayouttestapp.dialogs;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -19,6 +19,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
+
+import com.nk.onelayouttestapp.R;
 
 import java.util.ArrayList;
 import java.util.List;
